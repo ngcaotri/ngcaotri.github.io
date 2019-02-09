@@ -4,7 +4,7 @@ body{
 
 body header {
     height: 60px;
-    
+    z-index: 1;
     background-color: white;
 
 }
