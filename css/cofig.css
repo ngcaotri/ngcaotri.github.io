@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body header {
@@ -11,5 +11,9 @@ body header {
 .logo{
     height: 30px;
 
+}
+.img_icon{
+    height: 64px;
+    width: 88px;
 }
 
