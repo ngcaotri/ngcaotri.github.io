@@ -3,8 +3,8 @@ $('.owl-carousel').owlCarousel({
   margin: 10,
   nav: true,
   navText: [
-    "<i class='fa fa-caret-left'></i>",
-    "<i class='fa fa-caret-right'></i>"
+    "<button class='paginate left'><i></i><i></i></button>",
+    "<button class='paginate right'><i></i><i></i></button>"
   ],
   autoplay: true,
   autoplayHoverPause: true,
