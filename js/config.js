@@ -2,9 +2,11 @@ const tablet_screen= 992;
 const phone_screen= 576;
 function  collapse(){
     var element = document.getElementById("navbarToggleExternalContent");
+    let gg = document.querySelectorAll("div.gg");
     if (getWidth() < tablet_screen)    {
         element.classList.add("collapse");
         document.getElementById("carousel_hidden").classList.remove("d-flex");
+        gg.classList.remove("d-flex");
     }
     else if (getWidth() < phone_screen) {
         //document.getElementById("header_mobile_dflex").classList.remove("d-flex");
@@ -12,6 +14,7 @@ function  collapse(){
     else { 
         element.classList.remove("collapse");
         document.getElementById("carousel_hidden").classList.add("d-flex");
+        gg.classList.add("d-flex");
         //document.getElementById("header_mobile_dflex").classList.add("d-flex");
 }
 }
@@ -30,3 +33,4 @@ function getWidth() {
 }
 collapse();
 window.onresize = collapse;
+//

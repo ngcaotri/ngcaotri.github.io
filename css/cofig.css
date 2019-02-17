@@ -8,12 +8,52 @@ body header {
     background-color: white;
 
 }
+.background_service{
+  background: url("../img/background_service.png") no-repeat fixed center;
+}
 .logo{
     height: 30px;
 
 }
 .img_icon{
-    height: 64px;
-    width: 88px;
+    height: 50px;
+    width: 69px;
+}
+
+.carousel-wrap {
+  margin: 0px auto;
+  padding: 0 0;
+  width: 100%;
+  position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  -webkit-backface-visibility: hidden; 
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+.gg{
+  
 }
 
