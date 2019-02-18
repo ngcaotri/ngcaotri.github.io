@@ -53,8 +53,13 @@ body header {
 .owl-nav .owl-next {
   right: -30px;
 }
+.green_back{
+  color: white;
+  background-color:  rgb(25, 180, 25);
+}
 .gg{
   
+
 }
 /* Button */
 button {

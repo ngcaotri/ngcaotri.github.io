@@ -6,6 +6,7 @@ function  collapse(){
     if (getWidth() < tablet_screen)    {
         element.classList.add("collapse");
         document.getElementById("carousel_hidden").classList.remove("d-flex");
+        document.getElementById("green_back").classList.add("green_back");
        // gg.classList.remove("d-flex");
     }
     else if (getWidth() < phone_screen) {
@@ -14,6 +15,7 @@ function  collapse(){
     else { 
         element.classList.remove("collapse");
         document.getElementById("carousel_hidden").classList.add("d-flex");
+        document.getElementById("green_back").classList.remove("green_back");
         //gg.classList.add("d-flex");
         //document.getElementById("header_mobile_dflex").classList.add("d-flex");
 }
