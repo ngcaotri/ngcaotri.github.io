@@ -313,3 +313,15 @@ button {
 .filter_box{
   height: 60px;
 }
+.btn_{
+  height: 25px;
+  width: 110px;
+}
+del {
+  color: gray;
+}
+.checkout_logo{
+  height: 25px;
+  width: 42px;
+  object-fit: contain;
+}

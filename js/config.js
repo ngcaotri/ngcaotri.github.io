@@ -1,7 +1,8 @@
 const tablet_screen= 992;
 const phone_screen= 576;
+var element = document.getElementById("navbarToggleExternalContent");
 function  collapse(){
-    var element = document.getElementById("navbarToggleExternalContent");
+   
     //let gg = document.querySelectorAll("div.gg");
     if (getWidth() < tablet_screen)    {
         element.classList.add("collapse");
@@ -20,6 +21,7 @@ function  collapse(){
         //document.getElementById("header_mobile_dflex").classList.add("d-flex");
 }
 }
+
 
 function getWidth() {
     if (self.innerWidth) {

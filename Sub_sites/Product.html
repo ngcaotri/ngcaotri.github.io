@@ -9,27 +9,27 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../css/owl.carousel.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../css/cofig.css" />
+    <link rel="icon" href="../img/logoAsset 2.png">
 
 </head>
 
 <body>
     <header class="navbar d-flex align-items-center navbar-expand-lg p-0 ml-2">
         <nav class="navbar navbar-light d-lg-none p-0 col-md-5 col-sm-4 col-5">
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </nav>
-        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-4 col-2 navbar-brand m-0 d-flex justify-content-center"> <img
-                class="img-fluid logo " src="../img/pig.png" alt="logo"> </div>
+        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-4 col-2 navbar-brand m-0 d-flex justify-content-center"> <a
+                href="../index.html"><img class="img-fluid logo " src="../img/logoAsset 2.png" alt="logo"></a> </div>
         <div class="col-xl-8 col-lg-8" style="background-color: white" id="navbarToggleExternalContent">
             <ul class="navbar-nav mt-1">
                 <li class="nav-item col-2">
-                    <a class="nav-link active" href="#">Products</a>
+                    <a class="nav-link active" href="../Sub_sites/Product.html">Products</a>
                 </li>
                 <li class="nav-item col-2">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="../Sub_sites/Service.html">Services</a>
                 </li>
                 <li class="nav-item col-2">
                     <a class="nav-link" href="#">Learn</a>
@@ -46,16 +46,16 @@
             style="background-color: white" id="header_mobile_dflex">
             <!-- Search -->
             <div class="d-flex align-items-center" id="search_icon">
-                <img class="img-fluid mr-3" height="15px" width="15px" src="../img/search.png" alt="logo">
-                <svg height="35" width="1.5">
+                <img class="img-fluid mr-3 d-none d-sm-block" height="25px" width="25px" src="../img/search.jpg" alt="logo">
+                <svg height="35" width="1.5" class=" d-none d-sm-block">
                     <line x1="0" y1="0" x2="0" y2="35" style="stroke:rgb(51, 51, 51); stroke-width:1.5" />
                 </svg>
             </div>
             <!-- Account -->
             <div class="">
                 <div class="dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: rgb(0, 175, 0)">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" style="color: rgb(0, 175, 0)">
                         Hi! Tri
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -64,13 +64,12 @@
                 </div>
             </div>
             <!-- Add to Cart -->
-            <button type="button" class="btn btn-outline-success rounded-pill mx-3 d-none d-md-block">Card
-                .....</button>
+            <button type="button" class="btn btn-outline-success rounded-pill mx-3 d-none d-md-block">Card <img src="../img/Group 405.png" alt="Checkout" class="checkout_logo"></button>
         </div>
     </header>
     <!-- Slider -->
     <div class="container">
-        <div class="jumbotron jumbotron-fluid p-0 " style="background-color: white">
+        <div class="jumbotron jumbotron-fluid p-0 mb-1" style="background-color: white">
             <div id="carousel_Controls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -122,23 +121,411 @@
             </div> -->
         </div>
         <!-- Filter -->
-        <div class="row px-lg-5 px-4 m-0 filter_box">
-            <div class="col-8 d-flex justify-content-around align-items-center p-0 m-0" style="height: 60px;">
+        <div class="row px-lg-5 px-4 m-0 filter_box d-flex align-items-center my-4 my-lg-0">
+            <div class="col-8 d-flex justify-content-between align-items-center p-0 m-0" style="height: 60px;">
                 <button type="button" class="btn btn-success rounded-0 ">All</button>
                 <button type="button" class="btn btn-outline-success rounded-0">Hanging Plants</button>
-                <button type="button" class="btn btn-outline-success rounded-0">Cacti & Succulents</button>
-                <button type="button" class="btn btn-outline-success rounded-0">Flower Plants</button>
-                <button type="button" class="btn btn-outline-success rounded-0">Carnivorous</button>
-                <button type="button" class="btn btn-outline-success rounded-0">Pots & Kits</button>
-                <button type="button" class="btn btn-outline-success rounded-0">Trending Now</button>
-
+                <button type="button" class="btn btn-outline-success rounded-0 d-none d-sm-block">Cacti & Succulents</button>
+                <button type="button" class="btn btn-outline-success rounded-0 d-none d-md-block">Flower Plants</button>
+                <button type="button" class="btn btn-outline-success rounded-0 d-none d-xl-block">Pots & Kits</button>
+                <button type="button" class="btn btn-outline-success rounded-0 d-none d-xl-block">Trending Now</button>
+            </div>
+          <!--   <div class="col-lg-4 col-12  d-flex justify-content-around align-items-center p-0 >
+                <p class="m-0">Price</p>
+                <button type="button" class="btn btn-outline-success rounded-0 p-0 btn_">0</button>
+                <p class="m-0">-</p>
+                <button type="button" class="btn btn-outline-success rounded-0 p-0 btn_">0</button>
+                <button type="button" class="btn btn-success rounded-0 d-none d-xl-block">Filter</button>
+            </div> -->
+        </div>
+        <!-- Intro -->
+        <div class="row px-4 px-lg-5 my-3 d-flex align-items-center">
+            <div class="col-12 col-md-6 col-lg-6 ">
+                <h5>Gardent inside your home Plants can create a feeling of peace</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 px-lg-0 ">
+                <img src="../img/gardent1.png" alt="gardent1" class="img-fluid">
             </div>
         </div>
+        <!-- Product -->
+        <div class="row px-4 px-lg-5 my-3">
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/1.png" alt="product1" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+                <!--Add-->
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/2.png" alt="product1" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/3.png" alt="product1" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/4.png" alt="product1" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/5.png" alt="product1" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/6.png" alt="product1" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/7.png" alt="8" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/8.png" alt="8" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/9.png" alt="product1" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/10.png" alt="10" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/11.png" alt="11" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/12.png" alt="12" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/13.png" alt="13" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/14.png" alt="14" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/15.png" alt="15" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/16.png" alt="16" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/17.png" alt="17" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/18.png" alt="18" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/19.png" alt="19" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/20.png" alt="20" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/21.png" alt="21" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/22.png" alt="22" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/23.png" alt="23" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+                <div class="card m-1">
+                    <img src="../img/product/24.png" alt="24" class="card-img-top" />
+                    <div class="card-body border-0">
+                        <span class="col-12 card-text p-0">
+                            <h6 class="m-0">NAME-Name</h6>
+                            <p>Hanging Plants</p>
+                        </span>
+                        <div class="col-12 card-text p-0 ">
+                            <h6 class="card-title m-0"><strong>100.000 VNĐ</strong></h6>
+                            <del>150.000 VNĐ</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-4 mb-5">
+            <button type="button" class="btn btn-outline-success rounded-0">Load more...</button>
+        </div>
     </div>
+            
+  
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="row px-4 px-lg-5 px-lg-5 mt-2">
+        <div class="container border-top border-success">
+            <div class="row px-4 px-lg-5 px-lg-5 mt-4">
                 <div class="col-12 col-sm-10 col-lg-5 col-xl-5 row mx-auto">
                     <div class="col-lg-7 col-sm-8 col-12">
                         <span>
@@ -176,6 +563,9 @@
                 </div>
 
             </div>
+            <div class="text-center text-white bg-success  m-0 py-1">
+                <p class="m-0 small">Urban Plants® 2019</p>
+            </div>
         </div>
     </footer>
 
@@ -187,4 +577,4 @@
     <script src="../js/index.js"></script>
 </body>
 
-</html>
+</html> 
