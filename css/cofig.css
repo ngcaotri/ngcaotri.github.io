@@ -325,3 +325,8 @@ del {
   width: 42px;
   object-fit: contain;
 }
+.icon_ava{
+  height: 35px;
+  width: 35px;
+  object-fit: contain;
+}
