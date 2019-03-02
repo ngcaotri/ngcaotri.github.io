@@ -4702,7 +4702,7 @@ input[type="button"].btn-block {
   margin-bottom: 15px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .card-deck {
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
