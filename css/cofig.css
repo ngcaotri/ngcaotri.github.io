@@ -265,7 +265,7 @@ button {
 }
 .view-first .mask1 {
   opacity: 0;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.75);
   transition: all 0.4s ease-in-out;
 }
 
