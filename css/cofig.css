@@ -5,13 +5,17 @@ body{
 }
 body header {
     height: 60px;
-    z-index: 1;
+    z-index: 1020;
     background-color: white;}
 
 ul li a{
   text-decoration: none;
   color: rgb(0, 175, 0);
 }
+.container{
+  margin-top: 60px;
+}
+
 .background_service{
   background: url("../img/background_service.png") no-repeat fixed center;
 }
